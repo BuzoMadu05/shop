@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AwesomeStore - Shop</title>
+    <link rel="stylesheet" href="Shop.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">SwizzStore</div>
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="Shop.html">Shop</a>
+        <!-- Cart count will be updated dynamically -->
+        <a href="Cart.html">Cart <span id="cartCount">0</span></a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search products..."
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="shop">
+        <h1>Shop All Products</h1>
+        <div class="filters">
+          <label for="sortOptions">Sort by:</label>
+          <select id="sortOptions">
+            <option value="default">Default</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="name-asc">Name: A-Z</option>
+            <option value="name-desc">Name: Z-A</option>
+          </select>
+        </div>
+        <div class="product-grid">
+          <!-- Each product-item has a data-name attribute to help with search filtering -->
+          <div class="product-item" data-name="product 1">
+            <img src="my picture.jpg" alt="Product 1" />
+            <h3>Product 1</h3>
+            <p class="price">$19.99</p>
+            <p class="description">
+              High quality product for your everyday needs.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-item" data-name="product 2">
+            <img src="my picture.jpg" alt="Product 2" />
+            <h3>Product 2</h3>
+            <p class="price">$29.99</p>
+            <p class="description">
+              Premium product with outstanding features.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-item" data-name="product 3">
+            <img src="my picture.jpg" alt="Product 3" />
+            <h3>Product 3</h3>
+            <p class="price">$39.99</p>
+            <p class="description">
+              Experience the best performance and durability.
+            </p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-item" data-name="product 4">
+            <im
+

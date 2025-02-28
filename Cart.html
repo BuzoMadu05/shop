@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AwesomeStore - Your Cart</title>
+    <link rel="stylesheet" href="Cart.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">SwizzStore</div>
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="#">Shop</a>
+        <a href="Cart.html">Cart</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="cart">
+        <h1>Your Shopping Cart</h1>
+        <!-- Search bar to filter cart items -->
+        <div class="cart-search">
+          <input
+            type="text"
+            id="cartSearch"
+            placeholder="Search cart items..."
+          />
+          <button id="cartSearchBtn">Search</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Qty</th>
+              <th>Price</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody id="cartTable">
+            <!-- Cart items will be dynamically inserted here -->
+          </tbody>
+        </table>
+        <div class="cart-summary">
+          <p>
+            Subtotal:
+            <span id="cartSubtotal">$0.00</span>
+          </p>
+          <button id="checkoutBtn">Proceed to Checkout</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="Cart.js"></script>
+  </body>
+</html>

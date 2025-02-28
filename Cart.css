@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Cart Section */
+.cart {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Cart Search */
+.cart-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cart-search input {
+  padding: 8px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.cart-search button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.cart-search button:hover {
+  background-color: #555;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Quantity Button Styles */
+.qty-btn {
+  padding: 4px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.qty-btn:hover {
+  background-color: #cf711f;
+}
+
+/* Cart Summary */
+.cart-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-summary p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#checkoutBtn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#checkoutBtn:hover {
+  background-color: #45a049;
+}
+
+  
